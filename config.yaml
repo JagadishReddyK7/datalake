@@ -1,0 +1,4 @@
+- mongoDB:
+    collection_name: user
+    connection_uri: mongodb+srv://kollujagadishreddy:jagadish17@cluster0.gtfxrem.mongodb.net/
+    db_name: fast_api
