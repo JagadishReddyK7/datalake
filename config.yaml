@@ -2,3 +2,14 @@
     collection_name: user
     connection_uri: mongodb+srv://kollujagadishreddy:jagadish17@cluster0.gtfxrem.mongodb.net/
     db_name: fast_api
+- aws_s3:
+    access_key: ''
+    bucket_name: ''
+    secret_key: ''
+- nifi:
+    processor_url: ''
+    queue_url: ''
+    web_url: ''
+- kafka:
+    kafka_broker: ''
+    kafka_topic: ''
