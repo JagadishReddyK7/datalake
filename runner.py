@@ -1,7 +1,7 @@
 import yaml
 from concurrent.futures import ThreadPoolExecutor
 from validation import *
-from validate import main_func
+from job_scheduler import main_func
 from time import sleep
 import asyncio
 

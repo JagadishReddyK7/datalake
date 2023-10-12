@@ -131,16 +131,6 @@ async def check_topic(broker_address, topic_name):
         return False
 
 async def main_func(connection_uri,collection_name,nifi_url,processor_url,queue_url,access_key,secret_key,bucket_name,broker_address,topic_name):
-    # connection_uri= ''
-    # collection_name= ''
-    # nifi_url = ''
-    # processor_url = ''
-    # queue_url = ''
-    # access_key = ''
-    # secret_key = ''
-    # bucket_name = ''
-    # broker_address=''
-    # topic_name=''
 
     await validate_mongoDB(connection_uri, collection_name)
     await validate_nifi(nifi_url, processor_url, queue_url)
